@@ -10,7 +10,7 @@ $(document).ready(function() {
     if(w > 680 && menu.is(':hidden')) {
       menu.removeAttr('style');
     }
-  });
+  }); 
 
 
   $('article.post iframe').wrap('<div class="video-container" />');
@@ -28,14 +28,7 @@ $(document).ready(function() {
 $(function(){
   $('<img>').attr('src',function(){
       var imgUrl = $('div.featured-image').css('background-image');
-      if (!imgUrl) {
-        return;
-      }
-      var urlre = /url\([\"\']?(.*?)[\"\']?\)/;
-      imgUrl = imgUrl.match(urlre);
-      if($.isArray(imgUrl)) {
-        imgUrl = imgUrl[1]; // Captured subexpression.
-      }
+      imgUrl = imgUrl .substring(4, imgUrl .length-1);
       return imgUrl;
   }).load(function(){
     $('img.loading').fadeOut(500);

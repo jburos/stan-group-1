@@ -1,18 +1,6 @@
 # Balzac
 
-This is forked from [minimal mistakes](http://mademistakes.com). I needed some type of framework to build off as I have no experience with Jekyll. Michael set up an awesome dev environment for this which really helped speed up my progress. He also already wrote up an incredibly comprehensive readme.md so I basically copied all of it and replaced what was necessary. The design itself is my own and I cannot let you sell this or tweak the design for resale, unless I you [contact me](mailto:cole@coletownsend.com).
-
-
-If you'd like give me credit somewhere on your blog or tweet a shout out to
-[@twnsndco](https://twitter.com/twnsndco), that would be pretty sweet. 
-
-If you feel like donating — [Give it a thought.](http://gtat.me/balzac/donate)
-
----
-
-
-![Balzac for Jekyll](http://cl.ly/Qdzo/Screen%20Shot%202013-08-05%20at%205.35.11%20PM.jpg)
-![Balzac for Jekyll](http://cl.ly/Qdyh/Screen%20Shot%202013-08-05%20at%205.30.01%20PM.jpg)
+This is forked from [minimal mistakes](http://mademistakes.com). I needed some type of framework to build off as I have no experience with Jekyll. Michael already wrote up an incredibly comprehensive readme.md so I basically copied all of it and replaced what was necessary.
 
 ## Features:
 - flexible, uses max-width for responsive goodness
@@ -30,7 +18,7 @@ If you feel like donating — [Give it a thought.](http://gtat.me/balzac/donate)
 5.  ???
 6.  Profit
 
-## [Preview the Theme](http://jekyll.gtat.me)
+## [Preview the Theme](http://gtat.me/balzac)
 =======
  [Preview the Theme](http://jekyll.gtat.me)
  
@@ -105,13 +93,10 @@ A good rule of thumb is to keep feature images nice and wide so you don't push t
 
 ``` yaml
 image:
-# local image 
   feature: feature-image-filename.jpg
-# link image
-  feature: "http(s)://image.domain.com/feature-image-filename.jpg"
 ```
 
-This makes the assumption that the feature image is in the *images* folder unless it has a link address. To add a feature image to a post or page just include the filename in the front matter like so.
+This makes the assumption that the feature image is in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so.
 You can "serve" images responsively with retina.js. All you need to do is have a file with @2x before the file type. That should be placed in the *images* folder. You literally don't have to do anything other than that. 2 copies. One is linked. That's it.
 Ex:
 `cool-photo@2x.jpg` 
@@ -135,4 +120,7 @@ If done correctly `/blog` should be a page listing all the site's posts.
 
 ## License
 
-This is free to use, fork, do whatever you want. Please *do not* sell this design though. You don't need to link me to it, but please contact me if you intend to market this theme. I am releasing premium versions of this design for select CMS's. 
+This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer. 
+
+If you'd like give me credit somewhere on your blog or tweet a shout out to
+[@ctrunsthis](https://twitter.com/ctrunsthis), that would be pretty sweet.
