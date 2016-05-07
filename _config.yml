@@ -1,8 +1,9 @@
 title:            Balzac
 tagline:          A beautiful theme.
 description:      Insouciant.
+baseurl:          '/stan-group-1'
 #Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+#url: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
