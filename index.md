@@ -1,7 +1,7 @@
 ---
 layout: homepage
 permalink: /index.html
-title: Stan group
+title: Stan Group
 Description: Stan will make your life amazing
 tags: [Stan group, home, bayesian, statistics]
 ---
