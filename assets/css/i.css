@@ -232,7 +232,6 @@ blockquote, blockquote p {
 }
 /************ Basic *************/
 body {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -244,7 +243,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+  font-family: "Arvo", "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 
 p {
@@ -716,6 +715,7 @@ header.site-header.darken.header-strip {
 
 .post {
   min-height: 500px;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
 }
 .post .deets {
   position: relative;
@@ -737,6 +737,7 @@ header.site-header.darken.header-strip {
   padding-top: 16.5px;
   margin-bottom: 16.5px;
   line-height: 1.25em;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 .post figure {
   margin: 33px 0;
